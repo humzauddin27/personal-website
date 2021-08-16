@@ -1,47 +1,112 @@
-html, body, #root, .App {
-  background-color: rgb(234, 234, 234);
+html,
+body,
+#root,
+.App {
+  background-color: #455357;
   height: 100%;
+  max-width: 100%;
+  overflow-y: scroll;
 }
 
 html {
-  font-size: 8px;
+  font-size: 48px;
 }
-@media screen and (min-width: 320px) {
-  html {
-    font-size: 16px;
-  }
-  p {
-    font-size: calc(14px + 6 * ((100vw - 320px) / 680));
-  }
-}
-@media screen and (min-width: 1000px) {
-  html {
-    font-size: 22px;
-  }
 
-  p {
-    font-size: 16px;
+p {
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: #d8d9d7;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 425px) {
+  .homeIcon {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 1000px) {
+  .homeIcon {
+    display: block;
   }
 }
 
 .App {
+  color: #d8d9d7;
   text-align: center;
-  font-family: 'San Francisco Text',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: "San Francisco Text", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 .main {
-  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
 }
 
-.links {
+.links,
+.icons {
   display: flex;
-  justify-content: space-around;
+  padding: 0.6em;
+}
+
+.icons svg {
+  margin-left: 25px;
 }
 
 .contact {
   display: flex;
   justify-content: space-around;
   margin-top: auto;
+}
+
+.name {
+  padding: 20px;
+}
+
+.button {
+  padding-left: 5px;
+  padding-right: 0.25em;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.introMain {
+  margin-top: 3.25em;
+  display: flex;
+  text-align: left;
+  justify-content: space-evenly;
+  padding-bottom: 9em;
+}
+
+.introText {
+  max-width: 35%;
+}
+
+.introHello {
+  padding-bottom: 1.25em;
+  font-size: 54px;
+}
+
+.introSummary {
+  margin-left: 0.75em;
+  margin-top: 0.75em;
+}
+
+.githubIcon {
+  max-height: 25px;
 }
