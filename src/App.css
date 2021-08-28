@@ -66,6 +66,10 @@ a:hover {
   margin-left: 25px;
 }
 
+path:hover {
+  fill: #baaca8;
+}
+
 .contact {
   display: flex;
   justify-content: space-around;
@@ -83,6 +87,7 @@ a:hover {
 
 .button:hover {
   cursor: pointer;
+  color: #baaca8;
 }
 
 .introMain {
