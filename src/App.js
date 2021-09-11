@@ -7,9 +7,13 @@ function App() {
     <div className="App">
       <Header />
       <Intro />
+      <div className="divider" />
       <Work />
+      <div className="divider" />
       <Projects />
+      <div className="divider" />
       <About />
+      <div className="divider" />
     </div>
   );
 }

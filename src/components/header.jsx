@@ -2,6 +2,8 @@ import GithubIcon from "../assets/github";
 import LinkedInLogo from "../assets/linkedin";
 
 export default function Header() {
+  //todo: scroll onclick for work/projects/etc
+  //todo: update HF with Logo HF (and center properly)
   return (
     <div className="main">
       <div className="links">
@@ -20,7 +22,7 @@ export default function Header() {
         </div>
       </div>
       <div className="homeIcon">
-        <p>finger</p>
+        <p>HF</p>
       </div>
       <div className="icons">
         <a href="https://github.com/humzauddin27/" target="_blank">
