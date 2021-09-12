@@ -1,20 +1,27 @@
 export default function Intro() {
   return (
     <div className="introMain">
-      <div className="introText">
-        <h1 className="introHello"> hi, i'm humza faheemuddin, a developer </h1>
-        <p>
+      <div style={{ width: "50%" }}>
+        <h1 className="introHello">
           {" "}
-          currently i work at{" "}
-          <a href="https://nuvalence.io/" target="_blank">
+          hi, i'm humza faheemuddin. a full-stack developer.{" "}
+        </h1>
+        <div className="introText">
+          <p>
             {" "}
-            nuvalence,{" "}
-          </a>
-          a consulting firm which helps companies build out digital platforms
-          and products with our expertise in cloud services{" "}
-        </p>
+            currently i work full-time at{" "}
+            <a href="https://nuvalence.io/" target="_blank">
+              {" "}
+              nuvalence
+            </a>
+            , a consulting firm which helps companies build out digital
+            platforms and products with our expertise in cloud services{" "}
+          </p>
+        </div>
       </div>
-      <div className="introImage">some image</div>
+      <div className="intro">
+        <div className="introImage">some image</div>
+      </div>
     </div>
   );
 }
