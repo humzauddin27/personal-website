@@ -2,8 +2,7 @@ export default function Intro() {
   return (
     <div className="introMain">
       <div className="introText">
-        <h1 className="introHello"> hello, i'm humza faheemuddin </h1>
-        <div> i'm a software engineer </div>
+        <h1 className="introHello"> hi, i'm humza faheemuddin, a developer </h1>
         <p>
           {" "}
           currently i work at{" "}

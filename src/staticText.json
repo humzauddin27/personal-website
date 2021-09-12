@@ -13,7 +13,7 @@
     "whosThatPokemon": {
       "name": "who's that pokémon",
       "description": "a pokémon guessing game, created using create-react-app. pokemon figures loaded from pokeapi",
-      "date": "september 2018",
+      "date": "updated september 2021",
       "picture": "",
       "github": "www.github.com/humzauddin27/whos-that-pokemon",
       "language": "react",
@@ -38,7 +38,7 @@
   },
   "about": {
     "main": "more me content: i'm working remotely out of waterloo, ontario",
-    "par1": "i started programming around 8 years ago. since i was a kid, i was fascinated by video game develpoment and was always intrigued by games liek the legend of zelda, pokemon and super mario",
+    "par1": "i started programming around 10 years ago, in 2012. since i was a kid, i was fascinated by video game develpoment and was always intrigued by games like the legend of zelda, pokemon and super mario",
     "par2": "video games drew me to the field, however what kept me here was the ability to flesh out any idea or project i wanted to and have the ability to work on industry changing products",
     "par3": "i'm still a gamer - my pc, switch and i are inseparable...but i also love playing and watching sports, getting bubble tea or sushi with friends and hitting the gym"
   }

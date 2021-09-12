@@ -1,4 +1,4 @@
-import humza from "../assets/humza.jpg";
+import humza1 from "../assets/humza1.png";
 import humza2 from "../assets/humza2.jpeg";
 import { about } from "../staticText.json";
 
@@ -7,7 +7,7 @@ export default function About() {
   return (
     <div className="aboutMain">
       <div className="aboutImage">
-        <img className="profileImage" src={humza} />
+        <img className="profileImage" src={humza1} />
         <img className="profileImage2" src={humza2} />
       </div>
 

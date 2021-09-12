@@ -5,6 +5,7 @@ html,
   height: 100%;
   max-width: 100%;
   overflow-y: scroll;
+  overflow-x: hidden;
 }
 
 html {
@@ -38,7 +39,7 @@ a:hover {
 .main {
   display: flex;
   justify-content: space-between;
-  position: absolute;
+  position: fixed;
   width: 100%;
   background-color: #455357;
 }
@@ -72,6 +73,11 @@ path:hover {
   padding-right: 0.25em;
 }
 
+.projectLink {
+  font-size: 2em;
+  text-decoration: underline;
+}
+
 .button:hover,
 .projectLink:hover {
   cursor: pointer;
@@ -80,7 +86,7 @@ path:hover {
 
 .introMain,
 .projectsMain {
-  margin-top: 3em;
+  margin-top: 4em;
   display: flex;
   text-align: left;
   justify-content: space-between;
@@ -97,6 +103,7 @@ path:hover {
   flex-direction: column;
   padding-top: 0em;
   margin: 0;
+  padding: 0;
 }
 
 .projectMain {
@@ -112,7 +119,6 @@ path:hover {
 
 .introHello {
   padding-bottom: 1.25em;
-  font-size: 54px;
 }
 
 .introSummary {
@@ -128,7 +134,7 @@ path:hover {
   display: flex;
   flex-direction: column;
   background-color: #69797d;
-  padding: 2.75em;
+  padding: 0.75em;
   border-radius: 1cm;
   margin-left: 2em;
   margin-right: 2em;
@@ -156,7 +162,7 @@ path:hover {
   border-radius: 3cm;
 }
 
-img {
+.workLogos img {
   height: 3.5em;
   transition: transform 0.2s;
 }
@@ -184,22 +190,24 @@ img:hover {
 
 .aboutTitle {
   font-weight: bold;
-  font-size: 48px;
 }
 
 .aboutText {
   display: flex;
   flex-direction: column;
-  text-align: left;
+  text-align: center;
   padding: 2em;
+  padding-top: 0.5em;
 }
 
 .profileImage {
   height: 12em;
   border-radius: 2cm;
+  max-height: 480px;
 }
 
 .profileImage2 {
+  max-height: 480px;
   height: 10em;
   border-radius: 2cm;
 }
@@ -211,8 +219,13 @@ img:hover {
 }
 
 .language p {
-  font-size: 36px;
+  font-size: 1em;
   margin-top: 0;
+}
+
+.date p {
+  font-size: 0.75em;
+  margin-top: -15px;
 }
 
 video {
@@ -220,6 +233,26 @@ video {
 }
 
 @media screen and (min-width: 200px) {
+  html {
+    font-size: 1em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  .icons svg {
+    max-height: 40px;
+  }
+
+  .introMain,
+  .projectsMain,
+  .aboutMain,
+  .workMain {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
   .homeIcon {
     display: none;
   }
@@ -229,14 +262,94 @@ video {
   .profileImage {
     display: none;
   }
+
+  .workLogos img {
+    height: 6em;
+    transition: transform 0.2s;
+  }
+}
+
+@media screen and (min-width: 630px) {
+  html {
+    font-size: 1em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  .workLogos img {
+    height: 8em;
+    transition: transform 0.2s;
+  }
+
+  .aboutTitle {
+    font-size: 1.5em;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .workLogos img {
+    height: 8em;
+    transition: transform 0.2s;
+  }
+
+  .introMain,
+  .projectsMain,
+  .aboutMain,
+  .workMain {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
 }
 
-@media screen and (min-width: 1250px) {
+@media screen and (min-width: 1000px) {
+  html {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
+  .icons svg {
+    max-height: none;
+  }
+
   .profileImage {
     display: block;
+  }
+  .workLogos img {
+    height: 6em;
+    transition: transform 0.2s;
+  }
+
+  .introMain,
+  .projectsMain,
+  .aboutMain,
+  .workMain {
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+
+  .language p {
+    font-size: 1.3em;
+    margin-top: 0;
+  }
+
+  .date p {
+    font-size: 1em;
+    margin-top: -30px;
+  }
+
+  .profileImage {
+    height: 375px;
+    border-radius: 2cm;
+  }
+
+  .profileImage2 {
+    height: 375px;
+    border-radius: 2cm;
   }
 }
 
@@ -245,28 +358,32 @@ video {
     flex-wrap: nowrap;
   }
 
-  .homeIcon {
-    display: block;
-  }
-
   body {
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 3em;
+    margin-right: 3em;
   }
 
   .main {
-    width: 87%;
+    width: 93%;
   }
 }
 
 @media screen and (min-width: 1800px) {
+  html {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+
   body {
-    margin-left: 6em;
-    margin-right: 6em;
+    margin-left: 4em;
+    margin-right: 4em;
   }
 
   .main {
-    width: 75%;
+    width: 84%;
   }
 }
 
@@ -277,6 +394,6 @@ video {
   }
 
   .main {
-    width: 60%;
+    width: 75%;
   }
 }
