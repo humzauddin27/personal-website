@@ -1,15 +1,49 @@
 import { projects } from "../staticText.json";
+import tweetsweep from "../assets/tweetsweep_demo.mp4";
+//import pokemon from "../assets/pokemon_demo.mp4";
+
+function returnVideo(projectName) {
+  switch (projectName) {
+    case "tweetsweep":
+      return tweetsweep;
+    case "who's that pokémon":
+      return tweetsweep;
+    default:
+      return false;
+  }
+}
 
 export default function Project({ projectName }) {
-  const { language, demo, description, name } = projects[projectName];
+  const { language, description, name, link } = projects[projectName];
+  const demo = returnVideo(name);
   return (
     <div className="projectMain">
       <div className="projectTitle">
-        {name}
-        <div className="language"> {language} </div>
+        {link ? (
+          <a className="projectLink" href={link} target="_blank">
+            {name}
+          </a>
+        ) : (
+          name
+        )}
+        <div className="language">
+          {" "}
+          <p> {language} </p>{" "}
+        </div>
       </div>
-      <div className="projectDemo">{demo}</div>
-      <div className="projectDescription">{description}</div>
+      <div className="projectDemo">
+        {demo ? (
+          <video controls>
+            <source src={demo} type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        ) : (
+          "No video"
+        )}
+      </div>
+      <div className="projectDescription">
+        <p>{description}</p>
+      </div>
     </div>
   );
 }

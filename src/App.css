@@ -72,7 +72,8 @@ path:hover {
   padding-right: 0.25em;
 }
 
-.button:hover {
+.button:hover,
+.projectLink:hover {
   cursor: pointer;
   color: #baaca8;
 }
@@ -207,6 +208,15 @@ img:hover {
 .profileImage2:hover {
   transform: none;
   cursor: auto;
+}
+
+.language p {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+video {
+  max-width: -webkit-fill-available;
 }
 
 @media screen and (min-width: 200px) {
