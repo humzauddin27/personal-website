@@ -4,7 +4,6 @@ html,
   background-color: #111;
   height: 100%;
   max-width: 100%;
-  overflow-y: scroll;
   overflow-x: hidden;
 }
 
