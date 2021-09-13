@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/personal-website/static/css/main.aaefc1b6.chunk.css",
+    "main.css": "/personal-website/static/css/main.fed38c3d.chunk.css",
     "main.js": "/personal-website/static/js/main.4216691c.chunk.js",
     "main.js.map": "/personal-website/static/js/main.4216691c.chunk.js.map",
     "runtime-main.js": "/personal-website/static/js/runtime-main.36805745.js",
@@ -10,7 +10,7 @@
     "static/js/3.af5d2594.chunk.js": "/personal-website/static/js/3.af5d2594.chunk.js",
     "static/js/3.af5d2594.chunk.js.map": "/personal-website/static/js/3.af5d2594.chunk.js.map",
     "index.html": "/personal-website/index.html",
-    "static/css/main.aaefc1b6.chunk.css.map": "/personal-website/static/css/main.aaefc1b6.chunk.css.map",
+    "static/css/main.fed38c3d.chunk.css.map": "/personal-website/static/css/main.fed38c3d.chunk.css.map",
     "static/js/2.ed0d0fda.chunk.js.LICENSE.txt": "/personal-website/static/js/2.ed0d0fda.chunk.js.LICENSE.txt",
     "static/media/bulba.bade2285.gif": "/personal-website/static/media/bulba.bade2285.gif",
     "static/media/charmander.d20cbde3.gif": "/personal-website/static/media/charmander.d20cbde3.gif",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.36805745.js",
     "static/js/2.ed0d0fda.chunk.js",
-    "static/css/main.aaefc1b6.chunk.css",
+    "static/css/main.fed38c3d.chunk.css",
     "static/js/main.4216691c.chunk.js"
   ]
 }
