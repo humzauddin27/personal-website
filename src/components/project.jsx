@@ -20,7 +20,12 @@ export default function Project({ projectName }) {
     <div className="projectMain">
       <div className="projectTitle">
         {link ? (
-          <a className="projectLink" href={link} target="_blank">
+          <a
+            className="projectLink"
+            href={link}
+            target="_blank"
+            rel="noreferrer"
+          >
             {name}
           </a>
         ) : (

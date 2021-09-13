@@ -37,9 +37,53 @@
     }
   },
   "about": {
-    "main": "more me content: i'm currently working remotely out of waterloo, ontario",
-    "par1": "i started programming around 10 years ago, in 2012. since i was a kid, i was fascinated by video game develpoment and was always intrigued by games like the legend of zelda, pokemon and super mario",
+    "main": "i'm currently working remotely out of waterloo, ontario",
+    "par1": "i started programming around 10 years ago. since i was a kid, i was fascinated by video game develpoment and was always intrigued by games like the legend of zelda, pokemon and super mario",
     "par2": "video games drew me to the field, however what kept me here was the ability to flesh out any idea or project i wanted to and have the ability to work on industry changing products",
     "par3": "i'm still a gamer - my pc, switch and i are inseparable...but i also love playing and watching sports, getting bubble tea or sushi with friends and hitting the gym"
+  },
+  "work": {
+    "nuvalence": {
+      "name": "nuvalence",
+      "position": "full-stack developer",
+      "date": "aug 2020 - present",
+      "location": "remote/toronto, ontario",
+      "description": "variety of languages & platforms including node, react, gcp & aws. implemented translations end to end for notifications & emails allowing for acquisition of international clients. unified and improved messaging development work streams granting developers a consistent experience across the platform. working directly with clients to develop structured front-end code and modularizing so files are more manageable. led & performed several co-op/internship interviews."
+    },
+    "lifion": {
+      "name": "lifion by adp",
+      "position": "platform engineer",
+      "date": "jan 2019 - april 2019, sept 2019 - dec 2019",
+      "location": "new york city, new york",
+      "description": "primarily using nodejs. migrated messaging queue from amazon kinesis to amazon sqs, phasing out deprecated technology due to lack of support of kinesis. introduced honeycomb library to trace core etl functions and provide visualizations of data reducing time spent on debugging and searching through logs. overhauled error handling modules to reduce debugging & adding consistent behaviours. removed babel from major projects to speed up compilation and remove module dependencies."
+    },
+    "faire": {
+      "name": "faire",
+      "position": "front-end developer",
+      "date": "may 2018 - aug 2018",
+      "location": "kitchener, ontario",
+      "description": "primarily using react. integrated fedex shipping label generation into returns to let customers easily make returns on shipped items. created numerous emails using moustache to be sent out to customers to promote sales and improve retention. shipped several features to production in fast-paced, startup environment in a team of less than 10."
+    },
+    "bespoke": {
+      "name": "bespoke metrics",
+      "position": "front-end developer",
+      "date": "sept 2017 - dec 2017",
+      "location": "toronto, ontario",
+      "description": "implemented audit system for data admins validating user entered data & ensuring important info is not missing on applications to improve approval time. internationalized web application allowing for users to view site in language of choice. created auto formatting behaviours for fields for customers to easily enter dates, numbers, addresses, etc."
+    },
+    "opentext": {
+      "name": "opentext",
+      "position": "software engineer in test",
+      "date": "jan 2017 - apr 2017",
+      "location": "waterloo, ontario",
+      "description": "automated tests for new product used by thousands of customers using selenium & webdriver. created manual test cases to thoroughly test all edge cases. optimized tests to run 100% faster by caching data."
+    },
+    "canada": {
+      "name": "environment canada",
+      "position": "programmer & it",
+      "date": "may 2016 - aug 2016",
+      "location": "north york, ontario",
+      "description": "implemented bash script that backed up users hard drive to an ssd that was required for all employees. created python script to help sort & manage researcher's data daily findings & provide data to be consumed by front-end to display data. fixed a few printers"
+    }
   }
 }

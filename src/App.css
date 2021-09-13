@@ -8,8 +8,16 @@ html,
   overflow-x: hidden;
 }
 
+#intro,
+#about,
+#work,
+#projects {
+  scroll-margin-top: 4em;
+}
+
 html {
   font-size: 3rem;
+  scroll-behavior: smooth;
 }
 
 p {
@@ -42,6 +50,7 @@ a:hover {
   position: fixed;
   width: 100%;
   background-color: #111;
+  z-index: 2;
 }
 
 .links,
@@ -69,8 +78,7 @@ path:hover {
 }
 
 .button {
-  padding-left: 5px;
-  padding-right: 0.25em;
+  padding: 0 1em 0.25em 1em;
 }
 
 .projectLink {
@@ -85,19 +93,20 @@ path:hover {
 }
 
 .intro {
+  display: flex;
+  align-items: center;
   background-color: #242424;
-  padding: 2em;
+  padding: 1em;
   border-radius: 1cm;
 }
 
 .introMain,
 .projectsMain {
-  margin-top: 4em;
+  margin-top: 8em;
   display: flex;
   text-align: left;
   justify-content: space-between;
-  padding-bottom: 3em;
-  padding: 2em;
+  padding-bottom: 2em;
   margin-left: 2em;
   margin-right: 2em;
   border-radius: 1cm;
@@ -109,6 +118,7 @@ path:hover {
   padding-top: 0em;
   margin: 0;
   padding: 0;
+  z-index: 1;
 }
 
 .projectMain {
@@ -125,9 +135,9 @@ path:hover {
   -webkit-text-fill-color: transparent;
 }
 
-.introHello {
-  color: white;
-  -webkit-text-fill-color: transparent;
+a:hover {
+  cursor: pointer;
+  color: #baaca8;
 }
 
 .introText a {
@@ -145,10 +155,7 @@ path:hover {
 
 .workMain {
   display: flex;
-  flex-direction: column;
-  background-color: #1a1a1a;
-  padding: 0.75em;
-  border-radius: 1cm;
+  justify-content: space-between;
   margin-left: 2em;
   margin-right: 2em;
 }
@@ -161,7 +168,10 @@ path:hover {
 .workTop,
 .workBottom {
   display: flex;
-  justify-content: space-evenly;
+}
+
+.workTop img,
+.workBottom img {
   padding: 1em;
 }
 
@@ -172,7 +182,7 @@ path:hover {
 }
 
 .sq {
-  border-radius: 3cm;
+  border-radius: 5cm;
 }
 
 .workLogos img {
@@ -181,7 +191,7 @@ path:hover {
 }
 
 img:hover {
-  transform: scale(1.3);
+  transform: scale(1.1);
   cursor: pointer;
 }
 
@@ -203,6 +213,14 @@ img:hover {
 
 .aboutTitle {
   font-weight: bold;
+}
+
+.aboutTitle a {
+  text-decoration: underline;
+}
+
+.aboutTitle a:hover {
+  color: #baaca8;
 }
 
 .aboutText {
@@ -245,9 +263,19 @@ video {
   max-width: -webkit-fill-available;
 }
 
+.work {
+  padding: 0.75em;
+  border-radius: 1cm;
+  background-color: #1a1a1a;
+}
+
 @media screen and (min-width: 200px) {
   html {
     font-size: 1em;
+  }
+
+  .introImage img {
+    height: 5em;
   }
 
   p {
@@ -276,15 +304,37 @@ video {
     display: none;
   }
 
+  .workMain {
+    flex-direction: column;
+  }
+
+  .workLogos {
+    align-items: center;
+  }
+
   .workLogos img {
     height: 6em;
     transition: transform 0.2s;
+  }
+
+  .introImage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
 @media screen and (min-width: 630px) {
   html {
     font-size: 1em;
+  }
+
+  .introImage {
+    flex-direction: row;
+  }
+
+  .introImage img {
+    height: 5em;
   }
 
   p {
@@ -305,6 +355,16 @@ video {
   .workLogos img {
     height: 8em;
     transition: transform 0.2s;
+  }
+
+  .homeIcon {
+    display: block;
+    margin-right: 2em;
+  }
+
+  .homeIcon img {
+    max-height: 3.5em;
+    max-width: 3.5em;
   }
 
   .introMain,
@@ -333,8 +393,12 @@ video {
     display: block;
   }
   .workLogos img {
-    height: 6em;
+    height: 8em;
     transition: transform 0.2s;
+  }
+
+  .introImage img {
+    height: 5em;
   }
 
   .introMain,
@@ -369,6 +433,11 @@ video {
 @media screen and (min-width: 1350px) {
   .aboutMain {
     flex-wrap: nowrap;
+  }
+
+  .homeIcon {
+    display: block;
+    margin-right: 6em;
   }
 
   body {
