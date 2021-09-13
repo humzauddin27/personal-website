@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.aaefc1b6.chunk.css",
+    "main.js": "/personal-website/static/js/main.4216691c.chunk.js",
+    "main.js.map": "/personal-website/static/js/main.4216691c.chunk.js.map",
+    "runtime-main.js": "/personal-website/static/js/runtime-main.36805745.js",
+    "runtime-main.js.map": "/personal-website/static/js/runtime-main.36805745.js.map",
+    "static/js/2.ed0d0fda.chunk.js": "/personal-website/static/js/2.ed0d0fda.chunk.js",
+    "static/js/2.ed0d0fda.chunk.js.map": "/personal-website/static/js/2.ed0d0fda.chunk.js.map",
+    "static/js/3.af5d2594.chunk.js": "/personal-website/static/js/3.af5d2594.chunk.js",
+    "static/js/3.af5d2594.chunk.js.map": "/personal-website/static/js/3.af5d2594.chunk.js.map",
+    "index.html": "/personal-website/index.html",
+    "static/css/main.aaefc1b6.chunk.css.map": "/personal-website/static/css/main.aaefc1b6.chunk.css.map",
+    "static/js/2.ed0d0fda.chunk.js.LICENSE.txt": "/personal-website/static/js/2.ed0d0fda.chunk.js.LICENSE.txt",
+    "static/media/bulba.bade2285.gif": "/personal-website/static/media/bulba.bade2285.gif",
+    "static/media/charmander.d20cbde3.gif": "/personal-website/static/media/charmander.d20cbde3.gif",
+    "static/media/faire.d8ac6baf.png": "/personal-website/static/media/faire.d8ac6baf.png",
+    "static/media/humza1.9e78fc34.png": "/personal-website/static/media/humza1.9e78fc34.png",
+    "static/media/humza2.809e68e1.jpeg": "/personal-website/static/media/humza2.809e68e1.jpeg",
+    "static/media/lifion.aa0a62f9.png": "/personal-website/static/media/lifion.aa0a62f9.png",
+    "static/media/logo.c36d7b16.png": "/personal-website/static/media/logo.c36d7b16.png",
+    "static/media/nuvalence.e56d23dc.jpeg": "/personal-website/static/media/nuvalence.e56d23dc.jpeg",
+    "static/media/opentext.32d101a5.png": "/personal-website/static/media/opentext.32d101a5.png",
+    "static/media/pokemon_demo.735a680a.mp4": "/personal-website/static/media/pokemon_demo.735a680a.mp4",
+    "static/media/resume.fdaaac5d.pdf": "/personal-website/static/media/resume.fdaaac5d.pdf",
+    "static/media/squirtle.ad126794.gif": "/personal-website/static/media/squirtle.ad126794.gif",
+    "static/media/tweetsweep_demo.08e7f2c8.mp4": "/personal-website/static/media/tweetsweep_demo.08e7f2c8.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.36805745.js",
+    "static/js/2.ed0d0fda.chunk.js",
+    "static/css/main.aaefc1b6.chunk.css",
+    "static/js/main.4216691c.chunk.js"
+  ]
+}
