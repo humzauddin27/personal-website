@@ -19,7 +19,7 @@ export default function Intro() {
           <p className="resume">
             {" "}
             <a href={resume} target="_blank" rel="noreferrer">
-              you can check out my resume here.{" "}
+              check out my resume here{" "}
             </a>{" "}
           </p>{" "}
         </div>
